@@ -166,9 +166,3 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-.gitignore
-.idea/
-app01/
-login_cookie/
-manage.py
-templates/
