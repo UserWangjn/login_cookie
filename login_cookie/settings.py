@@ -48,7 +48,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'login_cookie.auth_middleware.AuthMiddleware',
+    'app01.auth_middleware.AuthMiddleware',
+    # 'app01.auth_middleware.Throttle',
 ]
 
 ROOT_URLCONF = 'login_cookie.urls'
