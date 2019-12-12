@@ -27,14 +27,14 @@ def login(request):
             return ret
     return render(request,'login.html')
 
-@login_required
+# @login_required
 def home(request):
     # print(request.COOKIES)
     # if not request.COOKIES.get('is_login') == '1':
     #     return redirect('/login/')
     return HttpResponse('这是home页面')
 
-@login_required
+# @login_required
 def index(request):
     # if not request.COOKIES.get('is_login') == '1':
     #     return redirect('/login/')
